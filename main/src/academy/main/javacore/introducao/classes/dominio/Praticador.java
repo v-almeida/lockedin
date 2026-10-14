@@ -1,4 +1,4 @@
-package academy.main.javacore.introducao.dominio;
+package academy.main.javacore.introducao.classes.dominio;
 
 public class Praticador {
 

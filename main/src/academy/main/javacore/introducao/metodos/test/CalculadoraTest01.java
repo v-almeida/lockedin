@@ -1,0 +1,17 @@
+package academy.main.javacore.introducao.metodos.test;
+
+import academy.main.javacore.introducao.metodos.dominio.Calculadora;
+
+public class CalculadoraTest01 {
+
+    public static void main(String[] args) {
+
+        Calculadora calculadora = new Calculadora();
+
+        calculadora.somaDoisNumeros();
+        calculadora.subtraiDoisNumeros();
+    }
+
+
+
+}

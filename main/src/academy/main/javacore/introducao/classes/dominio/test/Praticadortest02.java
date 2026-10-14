@@ -1,6 +1,6 @@
-package academy.main.javacore.introducao.test;
+package academy.main.javacore.introducao.classes.dominio.test;
 
-import academy.main.javacore.introducao.dominio.Praticador;
+import academy.main.javacore.introducao.classes.dominio.Praticador;
 
 public class Praticadortest02 {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package academy.main.javacore.introducao.test;
+package academy.main.javacore.introducao.classes.dominio.test;
 
-import academy.main.javacore.introducao.dominio.Professor;
+import academy.main.javacore.introducao.classes.dominio.Professor;
 
 public class Professortest {
 

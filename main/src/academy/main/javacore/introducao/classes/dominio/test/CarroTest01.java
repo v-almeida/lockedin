@@ -1,6 +1,6 @@
-package academy.main.javacore.introducao.test;
+package academy.main.javacore.introducao.classes.dominio.test;
 
-import academy.main.javacore.introducao.dominio.Carro;
+import academy.main.javacore.introducao.classes.dominio.Carro;
 
 public class CarroTest01 {
 
