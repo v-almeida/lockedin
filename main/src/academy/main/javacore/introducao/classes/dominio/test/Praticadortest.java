@@ -14,4 +14,6 @@ public class Praticadortest {
         System.out.println(praticador.idade);
         System.out.println(praticador.sexo);
     }
+
+    
 }
