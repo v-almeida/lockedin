@@ -9,15 +9,13 @@ public class FuncionarioTest01 {
         Funcionario funcionario = new Funcionario();
 
 
-        funcionario.nome = "Charles do Brox";
-        funcionario.idade = 36;
-        double[] salario = {1200, 987.32, 2000};
+        funcionario.setNome("Charles do Brox");
+        funcionario.setIdade(36);
+        funcionario.setSalarios(new double[] {1200, 987.32, 2000});
 
 
         
         funcionario.imprime();
-        funcionario.mediaSalario(salario);
-        funcionario.mostrarSalarios(salario);
 
     }
 

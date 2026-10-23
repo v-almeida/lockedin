@@ -2,41 +2,75 @@ package academy.main.javacore.introducao.metodos.dominio;
 
 public class Funcionario {
 
-    public String nome;
-    public int idade;
-    public double salario;
+    private String nome;
+    private int idade;
+    private double[] salarios;
+    private double media;
 
     public void imprime(){
         System.out.println("===============================");
         System.out.println("Nome: "+this.nome);
         System.out.println("Idade: "+this.idade);
-        System.out.println("===============================");
+        if (salarios == null){
+            return;
+        }
+        for (double salario : salarios) {
+            System.out.print(salario + " ");
+        }
+
+        mediaSalario();
+
     }
 
-    public void mediaSalario(double[] salario){
+    public void mediaSalario(){
 
-        if (salario == null){
+        if (salarios == null){
             return;
         }
 
 
-        double media = 0;
-        for (double valor : salario) {
-            media += valor;
+        for (double salario : salarios) {
+            media += salario;
             
         }
 
-        System.out.println("Total salário: "+media);
-        System.out.printf("Média Salarial: %.2f%n",media / salario.length);
+        System.out.println("\nTotal salário: "+media);
+        System.out.printf("Média Salarial: %.2f%n",media / salarios.length);
     }
 
-    public void mostrarSalarios (double[] salario){
-        for (double valores : salario) {
-            System.out.println("Salario: "+valores);
-        }
+    public void setNome(String nome){
+        this.nome = nome;
 
-        System.out.println("=============================");
     }
+
+    public void setIdade(int idade){
+        this.idade = idade;
+
+    }
+
+    public void setSalarios(double[] salarios){
+        this.salarios = salarios;
+
+    }
+
+    public String getNome(){
+        return this.nome;
+    }
+
+    public int getIdade(){
+        return this.idade;
+    }
+
+    public double[] getSalarios(){
+        return this.salarios;
+    }
+
+    public double getMedia(){
+        return this.media;
+    }
+
+
+
 
 
 
