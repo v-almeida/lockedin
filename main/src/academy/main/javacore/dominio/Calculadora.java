@@ -1,4 +1,4 @@
-package academy.main.javacore.introducao.metodos.dominio;
+package academy.main.javacore.dominio;
 
 public class Calculadora {
 

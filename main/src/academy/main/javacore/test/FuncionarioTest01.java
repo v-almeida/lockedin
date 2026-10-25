@@ -1,7 +1,7 @@
-package academy.main.javacore.introducao.metodos.test;
+package academy.main.javacore.test;
 
 
-import academy.main.javacore.introducao.metodos.dominio.Funcionario;
+import academy.main.javacore.dominio.Funcionario;
 
 public class FuncionarioTest01 {
     public static void main(String[] args) {

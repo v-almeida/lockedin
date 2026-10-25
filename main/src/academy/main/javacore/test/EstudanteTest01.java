@@ -1,7 +1,7 @@
-package academy.main.javacore.introducao.metodos.test;
+package academy.main.javacore.test;
 
-import academy.main.javacore.introducao.metodos.dominio.Estudante;
-import academy.main.javacore.introducao.metodos.dominio.ImpressoraEstudante;
+import academy.main.javacore.dominio.Estudante;
+import academy.main.javacore.dominio.ImpressoraEstudante;
 
 public class EstudanteTest01 {
 

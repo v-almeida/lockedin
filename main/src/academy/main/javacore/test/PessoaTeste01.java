@@ -1,6 +1,6 @@
-package academy.main.javacore.introducao.metodos.test;
+package academy.main.javacore.test;
 
-import academy.main.javacore.introducao.metodos.dominio.Pessoa;
+import academy.main.javacore.dominio.Pessoa;
 
 public class PessoaTeste01 {
 
